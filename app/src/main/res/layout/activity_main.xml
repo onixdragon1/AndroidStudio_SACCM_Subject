@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9C59E"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/cat1"
+        android:padding="10dp"
+        android:background="@drawable/gray_button"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@drawable/gray_button"
+
+        android:text="Red Button"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:lines="1"
+        android:textStyle="bold|italic"
+        android:ellipsize="end"
+        android:drawableLeft="@mipmap/ic_launcher"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@drawable/gray_button"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="4dp"
+
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:lines="1"
+        android:ellipsize="end"
+
+        android:hint="값을 입력하세요"
+        android:textColorHint="#ffffff"
+
+        android:inputType="number"
+        />
+
+</LinearLayout>

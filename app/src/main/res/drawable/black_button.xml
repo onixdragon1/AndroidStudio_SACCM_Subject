@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/blackbtncolor"
+                android:centerColor="@color/blackbtncolor"
+                android:centerY="1.0"
+                android:endColor="@color/blackbtncolor"
+                android:angle="270"/>
+            <corners
+                android:radius="25dp">
+            </corners>
+            <stroke
+                android:color="#00ffffff"
+                android:width="2px">
+            </stroke>
+        </shape>
+    </item>
+</layer-list>
