@@ -1,5 +1,6 @@
 package com.sjw.firstapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -28,6 +29,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(CheckValid()){
                     Log.d("SignupActivity", "Success!");
+                    Intent intent = new Intent();
                 } else {
                     Log.d("SignupActivity", "OnClick CheckValid is false");
                 }
